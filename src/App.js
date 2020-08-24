@@ -5,8 +5,47 @@ import Todos from "./Todos";
 const styles = {
   title: provided => ({
     ...provided,
-    fontSize: "40px",
+    fontFamily: "Didot",
+    fontSize: "48px",
     fontWeight: 700
+    // color: "#fff"
+  }),
+  inputTitle: provided => ({
+    ...provided,
+    fontFamily: "Optima",
+    padding: "0px 8px",
+    fontWeight: 600
+
+    // fontWeight: 700
+    // fontFamily: "Merriweather"
+    // color: "#fff"
+  }),
+  inputField: provided => ({
+    ...provided,
+    fontFamily: "Optima",
+    border: "none",
+    background: "#fff",
+    borderRadius: "12px"
+    // borderBottom: "1px solid #f00"
+  }),
+  forgotPasswordButton: provided => ({
+    ...provided,
+    fontFamily: "Optima",
+    padding: "0px 8px",
+    color: "#355c7d",
+    fontWeight: 600
+  }),
+  primaryCtaButton: provided => ({
+    ...provided,
+    fontFamily: "Optima",
+    borderRadius: "12px",
+    background: "#355c7d",
+    fontWeight: 800
+  }),
+  secondaryCtaButton: provided => ({
+    ...provided,
+    fontFamily: "Optima",
+    color: "#355c7d"
   })
 };
 
